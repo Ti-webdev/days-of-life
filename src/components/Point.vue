@@ -32,7 +32,7 @@ export default {
   background #302E2E
 .now
   background #FFE0BD
-  animation blink-animation 1s steps(2, start) infinite
+  animation blink-animation 1s steps(5, start) infinite
 .future
   background #FFE0BD
 @keyframes blink-animation {
