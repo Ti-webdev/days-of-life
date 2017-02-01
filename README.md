@@ -1,3 +1,5 @@
+# Inspired of [36, Вадим Макишвили](https://www.youtube.com/watch?v=xPPCzryZK44)
+
 # days-of-life
 
 > Days Of Life
