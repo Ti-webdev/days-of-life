@@ -27,11 +27,7 @@ export default {
   height 1em
   overflow hidden
   font-size 50%
-  //display block
-  //float left
   flex 0 0 auto
-  margin-left -1px
-  margin-top -1px
 .past
   background #302E2E
 .today

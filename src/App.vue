@@ -79,5 +79,4 @@ h1
   //align-items center
   //align-content center
   //justify-content center
-  margin-left 1px
-  margin-top 1px</style>
+</style>
