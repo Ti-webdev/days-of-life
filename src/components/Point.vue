@@ -1,17 +1,17 @@
 <template lang="pug">
-  .day(:class="className", :title="day")
+  .day(:class="className", :title="point")
 </template>
 
 <script>
 export default {
-  name: 'day',
-  props: ['day', 'lived'],
+  name: 'point',
+  props: ['point', 'lived'],
   computed: {
     className () {
-      if (this.day === this.lived) {
-        return 'today'
+      if (this.point === this.lived) {
+        return 'now'
       }
-      if (this.day < this.lived) {
+      if (this.point < this.lived) {
         return 'past'
       }
       return 'future'
@@ -30,7 +30,7 @@ export default {
   flex 0 0 auto
 .past
   background #302E2E
-.today
+.now
   background #FFE0BD
   animation blink-animation 1s steps(2, start) infinite
 .future
